@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.content {
+	font-size: 40px;
+}
+.slide-down-bar {
+	position: fixed;
+	top: -80px;
+
+}
+.slide-down-bar ul {
+	display: flex;
+	list-style: none;
+	background: green;
+	color: #fff;
+	justify-content: space-around;
+}
+.slide-down-bar ul li {
+	padding: 15px;
+	width: 100px;
+	text-align: center;
+}
+.slide-down-bar ul li:hover {
+	background: #ED9595;
+}
